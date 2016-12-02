@@ -1,0 +1,94 @@
+html,body{
+    width:100%;height:100%;
+    padding: 0;margin: 0;
+    font-family: "微软雅黑";
+}
+.swiper-container{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.swiper-wrapper:nth-child(1){
+    background:#99D8F5;
+}
+.circle{
+    width:3.62rem;height:3.63rem;
+    border:0.05rem solid #9EABB0;
+    border-radius: 100%;
+    margin-top: 1.8rem;
+    text-align: center;
+    color: #fff;
+    line-height: 3.62rem;
+    margin-left: 1.8rem;
+    background:#D4E0E9
+}
+.circle1 {
+    width: 3rem;
+    height: 3rem;
+    border: 0.05rem solid #1664AA;
+    border-radius: 100%;
+    margin-top: 0.28rem;
+    text-align: center;
+    color: #fff;
+    line-height: 3.62rem;
+    margin-left: 0.28rem;
+    background:#1664AA;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "微软雅黑";
+    line-height: 3rem;
+
+}
+.kg{
+    text-align: center;margin-top: 1.6rem;
+    line-height: 0.8rem;
+    color:#1868AE;font-size: 0.8rem;
+    font-weight: bold;
+}
+.text{
+    color:#0D5591;
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 4rem;
+
+}
+/*第二屏*/
+.two{
+    background:url(../img/1.jpg) no-repeat ;
+    background-size: cover;
+}
+.two div{
+    color:#000;
+    font-size: 0.4rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.two div:nth-child(1){
+    margin-top: 5rem;
+}
+.buttom{
+    width:3.5rem;
+    height:1.2rem;
+    background:#63A8CE;
+    /*margin:0 auto;*/
+    border-radius: 10%;
+    margin-top: 3rem;
+    margin-left: 2.2rem;
+    text-align: center;
+    line-height: 1.2rem;
+    color:#fff;
+}
+.tp img{
+    width:4rem;height:4rem;
+    margin-top: -5rem;
+}
+/*第三屏*/
+.three{
+    background:url(../img/2.jpg) no-repeat ;
+    background-size: cover;
+}
+.four{
+    background:url(../img/3.png) no-repeat ;
+    background-size: cover;
+}
