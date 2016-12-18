@@ -1,0 +1,205 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"js/swiper.jquery.js",
+			"js/swiper.animate1.0.2.min.js",
+			"js/zepto.min.js",
+			"css/swiper.min.css",
+			"js/resize.js",
+			"css/animate.min.css",
+			"font-icon/iconfont.woff",
+			"list.html",
+			"img/video.png",
+			"img/zb.png",
+			"img/list4.png",
+			"img/list3.png",
+			"img/banner3.jpg",
+			"img/banner2.jpg",
+			"img/list2.png",
+			"img/banner1.png",
+			"img/logo.png",
+			"img/zt.png",
+			"img/tj.png",
+			"img/list1.png",
+			"css/welcome.css",
+			"img/welcome1.png",
+			"img/lg.png",
+			"img/log.png",
+			"img/txt.png",
+			"shouye.html",
+			"img/search-k.png",
+			"img/ban.jpg",
+			"img/dingwei.png",
+			"img/huatong.png",
+			"img/mp.png",
+			"img/gn.png",
+			"img/cj.png",
+			"img/ztfx-title.png",
+			"img/mzfq.png",
+			"img/gfgy.png",
+			"img/zrfg.png",
+			"img/ztly.png",
+			"img/hwtx.png",
+			"img/jrxx.png",
+			"img/fx.png",
+			"img/fx-ls1.png",
+			"img/xj.png",
+			"img/tpjl.png",
+			"img/mdd.png",
+			"img/md.png",
+			"img/sy.png",
+			"img/hd-ly.png",
+			"img/md-ban1.png",
+			"img/md-but.png",
+			"img/md-all.png",
+			"img/sy-ban1.jpg",
+			"img/zt1.png",
+			"img/zt4.png",
+			"img/zt3.png",
+			"img/zt6.png",
+			"img/zt2.png",
+			"img/zt5.png",
+			"img/md-ban1.jpg",
+			"img/md-ban2.jpg",
+			"img/md-ban3.jpg",
+			"css/me.css",
+			"img/me-ban.png",
+			"img/me-tx.png",
+			"img/me-mp.png",
+			"css/xiangqing.css",
+			"img/dfmz.jpg",
+			"img/sh2.jpg",
+			"img/sh1.jpg",
+			"img/nav.png",
+			"img/wd.png",
+			"img/login.jpg",
+			"img/qq.png",
+			"img/wx.png",
+			"img/wb.png",
+			"img/wel2.png",
+			"img/wel3.jpg"
+		],
+		"refer": [
+			"list.html",
+			"shouye.html"
+		]
+	},
+	"list.html": {
+		"resources": [
+			"xiangqing.html",
+			"img/ls-banner.png",
+			"img/bk.png",
+			"index.html",
+			"shouye.html"
+		],
+		"refer": [
+			"xiangqing.html",
+			"index.html",
+			"shouye.html"
+		]
+	},
+	"xiangqing.html": {
+		"resources": [
+			"img/gt.png",
+			"img/xw-img1.png",
+			"list.html",
+			"css/xiangqing.css",
+			"img/dfmz.jpg",
+			"img/sh2.jpg",
+			"img/sh1.jpg",
+			"css/index.css",
+			"js/swiper.jquery.js",
+			"js/swiper.animate1.0.2.min.js",
+			"js/zepto.min.js",
+			"css/swiper.min.css",
+			"js/resize.js",
+			"css/animate.min.css",
+			"font-icon/iconfont.woff",
+			"login.html"
+		],
+		"refer": [
+			"list.html",
+			"login.html"
+		]
+	},
+	"shouye.html": {
+		"resources": [
+			"img/banner2.jpg",
+			"css/index.css",
+			"img/video.png",
+			"img/zb.png",
+			"img/list4.png",
+			"img/list2.png",
+			"img/banner1.png",
+			"img/list3.png",
+			"img/banner3.jpg",
+			"img/zt.png",
+			"img/tj.png",
+			"font-icon/iconfont.woff",
+			"img/list1.png",
+			"img/logo.png",
+			"list.html",
+			"img/fx-ls1.png",
+			"img/gn.png",
+			"img/sy.png",
+			"img/zt6.png",
+			"img/xj.png",
+			"img/zt2.png",
+			"img/huatong.png",
+			"img/zt1.png",
+			"img/fx.png",
+			"img/wd.png",
+			"img/zt5.png",
+			"img/ztfx-title.png",
+			"img/sy-ban1.jpg",
+			"mudidi1.html",
+			"img/mp.png",
+			"img/mdd.png",
+			"img/cj.png",
+			"img/zt4.png",
+			"img/zt3.png",
+			"xiangqing.html",
+			"me.html"
+		],
+		"refer": [
+			"list.html",
+			"mudidi1.html",
+			"xiangqing.html",
+			"me.html"
+		]
+	},
+	"mudidi1.html": {
+		"resources": [
+			"img/md-ban2.jpg",
+			"img/md-ban3.jpg",
+			"img/md-ban1.jpg",
+			"me.html",
+			"shouye.html"
+		],
+		"refer": [
+			"me.html",
+			"shouye.html"
+		]
+	},
+	"me.html": {
+		"resources": [
+			"css/me.css",
+			"img/me-ban.png",
+			"img/me-tx.png",
+			"img/me-mp.png",
+			"mudidi1.html"
+		],
+		"refer": [
+			"mudidi1.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"img/wx.png",
+			"img/wb.png",
+			"img/login.jpg",
+			"img/qq.png"
+		]
+	}
+}

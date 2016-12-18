@@ -1,0 +1,181 @@
+html,body{
+    width:100%;height:100%;
+    padding: 0;margin: 0;
+    font-family: "微软雅黑";
+}
+span{
+	padding: 0;margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 194164 */
+    src: url('../font-icon/iconfont.eot');
+    src: url('../font-icon/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font-icon/iconfont.woff') format('woff'),
+    url('../font-icon/iconfont.ttf') format('truetype'),
+    url('../font-icon/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: "iconfont";
+
+}
+body{
+	background:#F1F1F1;
+}
+.ban{
+	width:100%;height: 5.1rem;background-image: url(../img/me-ban.png);
+	background-size: 100% 5.1rem;
+	background-repeat: no-repeat;
+}
+.head{
+	width:100%;height: 1.28rem;background: #000;opacity:0.8 ;
+	position: relative;
+}
+.me-back{
+	width:0.5rem;height: 0.5rem;float: left;
+}
+.me-back:before{
+	content: "\e613";font-size:0.5rem;color:#fff;margin-left:0.24rem
+}
+.me-ly{
+	width:0.5rem;height: 0.5rem;float: right;margin-right:0.24rem
+}
+.me-ly:before{
+	content: "\e8f7";font-size:0.48rem;color:#fff;
+}
+.me-xian{
+	width:0.4rem;float: left;margin-left: 2.2rem;
+}
+.me-xian:before{
+	content: "\e62a";font-size:0.5rem;color:#fff;
+}
+.me-dian{
+	/*width:0.1rem;*/float: left;
+}
+.me-dian:before{
+	content: "\e6a2";font-size:0.5rem;color:#fff;margin-top: -0.5rem;
+}
+.me-name1{
+	width:0.9rem;height:0.3rem;float: left;position: absolute;
+	top:0.75rem;left:3.5rem;font-size: 0.24rem;
+	color:#fff;
+}
+.me-tx img{
+	width:2.52rem;height: 2.28rem;
+	position: absolute;left:2.5rem;top:3.3rem;
+}
+.me-xinxi{
+	width:7.02rem;height:0.68rem ;margin: 0.8rem auto;
+}
+.me-name{
+	font-size: 0.22rem;font-weight: bold;margin-left: 1.62rem;float: left;
+}
+.taoxin{
+	width:0.3rem;height: 0.2rem;margin-left: 4.62rem;line-height: 0rem;
+	text-align: center;
+}
+.taoxin:before{
+	content: "\e7a4";color:#FF1B1B;font-size: 0.3rem;
+}
+.xian{
+	width:0.7rem;border-bottom: 2px dashed #d1d1d1;margin: 0.2rem auto;
+}
+.xing{
+	width:1.3rem;height: 0.3rem;background: url(../img/xj.png);
+	background-size: cover;margin: 0 auto;
+}
+/*内容*/
+.neirong{
+	width:100%;height:13rem;
+}
+.nr-inner{
+	width:93.6%;height:100%;margin: 0 auto;
+}
+.youhuijuan{
+	width:100%;height:1.34rem;display: flex;
+}
+.yhj-left{
+	width:46.4%;height: 100%;background:#fff;margin-right:0.2rem;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: flex;
+}
+.yhj-img{
+	width:1.3rem;height: 1rem;float: left;
+}
+.yhj-img img{
+	width:1.3rem;height: 1rem;
+}
+.yhj-txt{
+	width:2.2rem;height: 0.96rem;float: left;
+	border-left: 1px dashed #d1d1d1;margin-top: 0.2rem;margin-left: 0.1rem;
+	padding-left: 0.1rem;
+}
+.y-t-top{
+	width:100%;height:0.28rem;font-size: 0.24rem;color: #3E3E3E;
+}
+.y-t-bottom{
+	width:0.88rem;height: 0.4rem;color:#FF1B1B;font-size:0.3rem ;
+	border-top: 1px dashed #d1d1d1;
+}
+/*个人设置*/
+.meSet{
+	width:100%;height: 3.8rem;margin-top:0.6rem ;
+}
+.meSet-title{
+	font-size:0.34rem ;margin-bottom: 0.28rem;
+}
+.yjms{
+	width:100%;height: 0.73rem;background: #fff;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	line-height: 0.73rem;
+	position: relative;
+	margin-bottom: 0.12rem;
+}
+.yjms span{
+	display: block;
+	font-size:0.26rem ;margin-left: 0.7rem;float: left;
+}
+.but{
+	width:0.65rem;height:0.25rem ;background:#00B411;
+	border-bottom-left-radius: 0.1623rem;
+	border-bottom-right-radius: 0.1623rem;
+	border-top-left-radius: 0.1623rem;
+	border-top-right-radius: 0.1623rem;
+	float: right;margin-right: 0.4rem;margin-top: 0.23rem;
+}
+.but-yuan{
+	width:0.3rem;height: 0.3rem;background: #E1FFE4;border-radius: 100%;
+	position: absolute;left:6.2rem;top:0.2rem
+}
+.yell{
+	width:0.15rem;height: 0.15rem;background: #FFF100;border-radius: 100%;
+	margin: 0.075rem auto;
+}
+.bai{
+	width:0.1rem;height: 0.1rem;background: #fff;border-radius: 100%;
+	margin: 0.025rem auto;
+	
+}
+/*个人收藏*/
+.me-sc-title{
+	font-size:0.32rem ;margin-left: 0;margin-top: 0.5rem;
+	margin-bottom: 0.2rem;
+}
+.fx-icon{
+	width:0.3rem;height: 0.3rem;float: right;
+	text-align: center;line-height: 0.3rem;margin-right:0.5rem ;
+}
+.fx-icon:before{
+	content: "\e629";font-size: 0.3rem;color:#149AF8 ;
+}
